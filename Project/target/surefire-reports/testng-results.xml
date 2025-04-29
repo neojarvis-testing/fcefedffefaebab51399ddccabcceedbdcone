@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-29T08:05:25 UTC" name="Surefire suite" finished-at="2025-04-29T08:05:56 UTC" duration-ms="31252">
+  <suite started-at="2025-04-29T08:09:17 UTC" name="Surefire suite" finished-at="2025-04-29T08:09:51 UTC" duration-ms="33524">
     <groups>
     </groups>
-    <test started-at="2025-04-29T08:05:25 UTC" name="Surefire test" finished-at="2025-04-29T08:05:56 UTC" duration-ms="31252">
+    <test started-at="2025-04-29T08:09:17 UTC" name="Surefire test" finished-at="2025-04-29T08:09:51 UTC" duration-ms="33524">
       <class name="runner.Testcase1">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase1@6c5945a7]" started-at="2025-04-29T08:05:36 UTC" name="beforeMethod" finished-at="2025-04-29T08:05:46 UTC" duration-ms="10016" status="FAIL">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase1@333dd51e]" started-at="2025-04-29T08:09:17 UTC" name="beforeMethod" finished-at="2025-04-29T08:09:31 UTC" duration-ms="13093" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'fcefedffefaebab51399ddccabcceedbdcone-0', ip: '10.244.5.171'
+Host info: host: 'fcefedffefaebab51399ddccabcceedbdcone-0', ip: '10.244.5.243'
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1086-azure', java.version: '11.0.26'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -20,7 +20,7 @@ Capabilities {browserName: chrome}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'fcefedffefaebab51399ddccabcceedbdcone-0', ip: '10.244.5.171'
+Host info: host: 'fcefedffefaebab51399ddccabcceedbdcone-0', ip: '10.244.5.243'
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1086-azure', java.version: '11.0.26'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -115,11 +115,11 @@ at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioCh
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="TC_001()[pri:1, instance:runner.Testcase1@6c5945a7]" started-at="2025-04-29T08:05:46 UTC" name="TC_001" finished-at="2025-04-29T08:05:46 UTC" duration-ms="0" status="SKIP">
+        <test-method signature="TC_001()[pri:1, instance:runner.Testcase1@333dd51e]" started-at="2025-04-29T08:09:31 UTC" name="TC_001" finished-at="2025-04-29T08:09:31 UTC" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'fcefedffefaebab51399ddccabcceedbdcone-0', ip: '10.244.5.171'
+Host info: host: 'fcefedffefaebab51399ddccabcceedbdcone-0', ip: '10.244.5.243'
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1086-azure', java.version: '11.0.26'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -128,7 +128,7 @@ Capabilities {browserName: chrome}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'fcefedffefaebab51399ddccabcceedbdcone-0', ip: '10.244.5.171'
+Host info: host: 'fcefedffefaebab51399ddccabcceedbdcone-0', ip: '10.244.5.243'
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1086-azure', java.version: '11.0.26'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -223,17 +223,17 @@ at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioCh
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_001 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase1@6c5945a7]" started-at="2025-04-29T08:05:46 UTC" name="afterMethod" finished-at="2025-04-29T08:05:46 UTC" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase1@333dd51e]" started-at="2025-04-29T08:09:31 UTC" name="afterMethod" finished-at="2025-04-29T08:09:31 UTC" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- runner.Testcase1 -->
       <class name="runner.Testcase2">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase2@333dd51e]" started-at="2025-04-29T08:05:25 UTC" name="beforeMethod" finished-at="2025-04-29T08:05:36 UTC" duration-ms="11109" status="FAIL">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase2@2f05be7f]" started-at="2025-04-29T08:09:41 UTC" name="beforeMethod" finished-at="2025-04-29T08:09:51 UTC" duration-ms="10014" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'fcefedffefaebab51399ddccabcceedbdcone-0', ip: '10.244.5.171'
+Host info: host: 'fcefedffefaebab51399ddccabcceedbdcone-0', ip: '10.244.5.243'
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1086-azure', java.version: '11.0.26'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -242,7 +242,7 @@ Capabilities {browserName: chrome}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'fcefedffefaebab51399ddccabcceedbdcone-0', ip: '10.244.5.171'
+Host info: host: 'fcefedffefaebab51399ddccabcceedbdcone-0', ip: '10.244.5.243'
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1086-azure', java.version: '11.0.26'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -337,11 +337,11 @@ at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioCh
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="TC_002()[pri:2, instance:runner.Testcase2@333dd51e]" started-at="2025-04-29T08:05:36 UTC" name="TC_002" finished-at="2025-04-29T08:05:36 UTC" duration-ms="0" status="SKIP">
+        <test-method signature="TC_002()[pri:2, instance:runner.Testcase2@2f05be7f]" started-at="2025-04-29T08:09:51 UTC" name="TC_002" finished-at="2025-04-29T08:09:51 UTC" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'fcefedffefaebab51399ddccabcceedbdcone-0', ip: '10.244.5.171'
+Host info: host: 'fcefedffefaebab51399ddccabcceedbdcone-0', ip: '10.244.5.243'
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1086-azure', java.version: '11.0.26'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -350,7 +350,7 @@ Capabilities {browserName: chrome}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'fcefedffefaebab51399ddccabcceedbdcone-0', ip: '10.244.5.171'
+Host info: host: 'fcefedffefaebab51399ddccabcceedbdcone-0', ip: '10.244.5.243'
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1086-azure', java.version: '11.0.26'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -445,17 +445,17 @@ at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioCh
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_002 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase2@333dd51e]" started-at="2025-04-29T08:05:36 UTC" name="afterMethod" finished-at="2025-04-29T08:05:36 UTC" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase2@2f05be7f]" started-at="2025-04-29T08:09:51 UTC" name="afterMethod" finished-at="2025-04-29T08:09:51 UTC" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- runner.Testcase2 -->
       <class name="runner.Testcase3">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase3@2f05be7f]" started-at="2025-04-29T08:05:46 UTC" name="beforeMethod" finished-at="2025-04-29T08:05:56 UTC" duration-ms="10016" status="FAIL">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase3@6c5945a7]" started-at="2025-04-29T08:09:31 UTC" name="beforeMethod" finished-at="2025-04-29T08:09:41 UTC" duration-ms="10197" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'fcefedffefaebab51399ddccabcceedbdcone-0', ip: '10.244.5.171'
+Host info: host: 'fcefedffefaebab51399ddccabcceedbdcone-0', ip: '10.244.5.243'
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1086-azure', java.version: '11.0.26'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -464,7 +464,7 @@ Capabilities {browserName: chrome}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'fcefedffefaebab51399ddccabcceedbdcone-0', ip: '10.244.5.171'
+Host info: host: 'fcefedffefaebab51399ddccabcceedbdcone-0', ip: '10.244.5.243'
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1086-azure', java.version: '11.0.26'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -559,11 +559,11 @@ at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioCh
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="TC_003()[pri:3, instance:runner.Testcase3@2f05be7f]" started-at="2025-04-29T08:05:56 UTC" name="TC_003" finished-at="2025-04-29T08:05:56 UTC" duration-ms="0" status="SKIP">
+        <test-method signature="TC_003()[pri:3, instance:runner.Testcase3@6c5945a7]" started-at="2025-04-29T08:09:41 UTC" name="TC_003" finished-at="2025-04-29T08:09:41 UTC" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'fcefedffefaebab51399ddccabcceedbdcone-0', ip: '10.244.5.171'
+Host info: host: 'fcefedffefaebab51399ddccabcceedbdcone-0', ip: '10.244.5.243'
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1086-azure', java.version: '11.0.26'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -572,7 +572,7 @@ Capabilities {browserName: chrome}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'fcefedffefaebab51399ddccabcceedbdcone-0', ip: '10.244.5.171'
+Host info: host: 'fcefedffefaebab51399ddccabcceedbdcone-0', ip: '10.244.5.243'
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1086-azure', java.version: '11.0.26'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -667,7 +667,7 @@ at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioCh
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_003 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase3@2f05be7f]" started-at="2025-04-29T08:05:56 UTC" name="afterMethod" finished-at="2025-04-29T08:05:56 UTC" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase3@6c5945a7]" started-at="2025-04-29T08:09:41 UTC" name="afterMethod" finished-at="2025-04-29T08:09:41 UTC" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
