@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-29T08:04:17 UTC" name="Surefire suite" finished-at="2025-04-29T08:04:48 UTC" duration-ms="31389">
+  <suite started-at="2025-04-29T08:05:25 UTC" name="Surefire suite" finished-at="2025-04-29T08:05:56 UTC" duration-ms="31252">
     <groups>
     </groups>
-    <test started-at="2025-04-29T08:04:17 UTC" name="Surefire test" finished-at="2025-04-29T08:04:48 UTC" duration-ms="31389">
+    <test started-at="2025-04-29T08:05:25 UTC" name="Surefire test" finished-at="2025-04-29T08:05:56 UTC" duration-ms="31252">
       <class name="runner.Testcase1">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase1@6c5945a7]" started-at="2025-04-29T08:04:28 UTC" name="beforeMethod" finished-at="2025-04-29T08:04:38 UTC" duration-ms="10008" status="FAIL">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase1@6c5945a7]" started-at="2025-04-29T08:05:36 UTC" name="beforeMethod" finished-at="2025-04-29T08:05:46 UTC" duration-ms="10016" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -115,7 +115,7 @@ at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioCh
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="TC_001()[pri:1, instance:runner.Testcase1@6c5945a7]" started-at="2025-04-29T08:04:38 UTC" name="TC_001" finished-at="2025-04-29T08:04:38 UTC" duration-ms="0" status="SKIP">
+        <test-method signature="TC_001()[pri:1, instance:runner.Testcase1@6c5945a7]" started-at="2025-04-29T08:05:46 UTC" name="TC_001" finished-at="2025-04-29T08:05:46 UTC" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -223,13 +223,13 @@ at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioCh
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_001 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase1@6c5945a7]" started-at="2025-04-29T08:04:38 UTC" name="afterMethod" finished-at="2025-04-29T08:04:38 UTC" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase1@6c5945a7]" started-at="2025-04-29T08:05:46 UTC" name="afterMethod" finished-at="2025-04-29T08:05:46 UTC" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- runner.Testcase1 -->
       <class name="runner.Testcase2">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase2@333dd51e]" started-at="2025-04-29T08:04:17 UTC" name="beforeMethod" finished-at="2025-04-29T08:04:28 UTC" duration-ms="11243" status="FAIL">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase2@333dd51e]" started-at="2025-04-29T08:05:25 UTC" name="beforeMethod" finished-at="2025-04-29T08:05:36 UTC" duration-ms="11109" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -337,7 +337,7 @@ at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioCh
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="TC_002()[pri:2, instance:runner.Testcase2@333dd51e]" started-at="2025-04-29T08:04:28 UTC" name="TC_002" finished-at="2025-04-29T08:04:28 UTC" duration-ms="0" status="SKIP">
+        <test-method signature="TC_002()[pri:2, instance:runner.Testcase2@333dd51e]" started-at="2025-04-29T08:05:36 UTC" name="TC_002" finished-at="2025-04-29T08:05:36 UTC" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -445,13 +445,13 @@ at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioCh
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_002 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase2@333dd51e]" started-at="2025-04-29T08:04:28 UTC" name="afterMethod" finished-at="2025-04-29T08:04:28 UTC" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase2@333dd51e]" started-at="2025-04-29T08:05:36 UTC" name="afterMethod" finished-at="2025-04-29T08:05:36 UTC" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- runner.Testcase2 -->
       <class name="runner.Testcase3">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase3@2f05be7f]" started-at="2025-04-29T08:04:38 UTC" name="beforeMethod" finished-at="2025-04-29T08:04:48 UTC" duration-ms="10016" status="FAIL">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase3@2f05be7f]" started-at="2025-04-29T08:05:46 UTC" name="beforeMethod" finished-at="2025-04-29T08:05:56 UTC" duration-ms="10016" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -559,7 +559,7 @@ at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioCh
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="TC_003()[pri:3, instance:runner.Testcase3@2f05be7f]" started-at="2025-04-29T08:04:48 UTC" name="TC_003" finished-at="2025-04-29T08:04:48 UTC" duration-ms="0" status="SKIP">
+        <test-method signature="TC_003()[pri:3, instance:runner.Testcase3@2f05be7f]" started-at="2025-04-29T08:05:56 UTC" name="TC_003" finished-at="2025-04-29T08:05:56 UTC" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -667,7 +667,7 @@ at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioCh
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_003 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase3@2f05be7f]" started-at="2025-04-29T08:04:48 UTC" name="afterMethod" finished-at="2025-04-29T08:04:48 UTC" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase3@2f05be7f]" started-at="2025-04-29T08:05:56 UTC" name="afterMethod" finished-at="2025-04-29T08:05:56 UTC" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
